@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Login</title>
+
+<style type="text/css">
+input {
+    display: block;
+    font-size: 18px;
+    padding: 10px;
+    margin-bottom: 10px;
+    outline: none;
+    border: 1px solid rgb(199, 199, 199);
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+body{
+    margin: 0; padding: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(126, 126, 126);
+}
+.container1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    margin: 15% 0;
+    min-height: 200px;
+    background-color: rgba(77, 77, 77, 0.3);
+    align-items: center;
+} 
+
+form{
+    width: 90px;
+    min-width: 250px;
+    max-width: 350px;
+}
+
+#TakeIn{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+</style>
+
+</head>
+<body>
+
+<div class="container1">
+<form action="/welcome-page" method="post">
+    <input type="text" name="username" />
+    <input type="password" name="password" />
+    <input id="TakeIn" type="submit" value="Войти" />
+</form>
+</div>
+
+
+</body>
+</html>
